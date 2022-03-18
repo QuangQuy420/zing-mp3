@@ -1,0 +1,245 @@
+/* Mobile + Tablet */
+@media (max-width : 63.9375em) {
+    .container__playlist-song-item-center {
+        display: none;
+    }
+
+    .container__playlist-song-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container__playlist-song-item-img i {
+        margin-left: 12px;
+    }
+
+    .container__playlist-song {
+        padding: 0;
+    }
+
+    .container__playlist-song-item .col.c-5,
+    .container__playlist-song-item .col.c-6 {
+         flex: 0 0 83.33333%;
+         max-width: 83.33333%;
+    }
+ 
+    .container__playlist-song-item .col.c-3 {
+     flex: 0 0 16.66667%;
+     max-width: 16.66667%;
+    }
+
+    .music-playing-btn {
+        display: none;
+    }
+}
+
+/* Mobile ( < 740 px ) */
+@media (max-width : 46.1875em) {
+    .menu,
+    .menu__right,
+    .title-right-update,
+    .container__info-btn,
+    .container__header-list-upload,
+    .container__info-menu-btn-more,
+    .container__playlist-title,
+    .music-playing-btn,
+    .music-playing-info-name,
+    div.footer__music-handle-2-micro,
+    div.footer__music-handle-2-display {
+        display: none;
+    }
+
+    .container,
+    .container__playlist-song-list {
+        padding: 0;
+    }
+
+    .container {
+        height: calc(100% - var(--footer-height));
+    }
+
+    .container__header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        left: 0;
+    }
+
+    .container__header-search {
+        margin-left: 12px;
+        max-width: 207px;
+        width: 100%;
+    }
+
+    .row.container__playlist,
+    .container__header-list {
+        margin-right: 12px;
+    }
+
+    .container__playlist-song-item-img i,
+    .music-playing-info {
+        margin-left: 12px;
+    }
+
+    input.container__header-search-info {
+        min-width: 160px;
+    }
+
+    .info-personal-ava {
+        margin-top: 80px;
+    }
+
+    .container__info-menu-btn {
+        padding: 2px 12px;
+    }
+
+    .container__playlist-4,
+    .container__title-podcast,
+    .container__title-playlist,
+    .row.container__playlist,
+    .container__song-title {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .progress__volume {
+        width: 60px;
+    }
+
+    .col.footer__music-handle-2 {
+        display: flex;
+        flex-direction: column;
+        right: -12px;
+        justify-content: center;
+    }
+
+    .footer__music-handle-2-volume {
+        margin-bottom: 4px;
+    }
+
+    .progress,
+    .progress__track {
+        left: 18%;
+        width: 64%;
+    }
+
+   .container__playlist-song-item:hover .container__playlist-song-icon-mic {
+       display: none;
+   }
+
+   .menu.active {
+       width: 200px;
+   }
+
+   .menu.active .menu__logo-img {
+    margin-left: 16px;
+   }
+
+   .menu.active .menu__item {
+    padding: 16px 0 16px 16px;
+   }
+}
+
+/* Tablet  ( 740px - 1023px) */ 
+@media (min-width : 46.25em) and (max-width : 63.9375em) {
+    .footer__music-handle-2 .menu__right-more {
+        display: flex;
+    }
+
+    .info-personal-ava {
+        margin-top: 60px;
+    }
+
+    .menu__right{
+        transform: translateX(100%);
+        height: calc(100% - 90px);
+        overflow-y: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu__tablet {
+        display: block;
+    }
+
+    .container {
+        padding-left: 72px;
+        padding-right: 0;
+    }
+
+    .container__header {
+        left: 72px;
+        right: 0;
+    }
+
+    .container__playlist-4,
+    .container__title-podcast,
+    .container__header-search {
+        margin-left: 20px;
+    }
+
+    .container__header-search-info {
+        max-width: 360px;
+    }
+
+    .btn-more,
+    .container__header-list {
+        margin-right: 20px;
+    }
+
+    .row.container__playlist,
+    .container__song-title {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .container__playlist-song-list {
+        padding: 0;
+    }
+
+    .footer__music-handle-2 {
+        display: flex;
+    }
+
+    .progress__volume {
+        width: 60px;
+    }
+
+    .progress,
+    .progress__track {
+        left: 16%;
+        width: 68%;
+    }
+}
+
+/* PC small  ( 1024px -  1589px ) */
+@media (min-width : 64em) and (max-width : 99.3125em) {
+    .footer__music-handle-2 .menu__right-more {
+        display: flex;
+    }
+
+    .menu__right{
+        transform: translateX(100%);
+        height: calc(100% - 90px);
+        overflow-y: auto;
+    }
+
+    .container__header {
+        right: 0;
+    }
+
+    .container {
+        padding-right: 0;
+    }
+
+}
+
+/* PC Big ( >= 1590px ) */
+@media (min-width : 99375) {
+    .menu__right {
+        transform: translateX(0);
+    }
+
+}

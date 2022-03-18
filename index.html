@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZingMp3</title>
+
+    <link rel="stylesheet" href="./assets/css/resetCss.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="grid full main">
+        <div class="menu">
+            <div class="menu__logo">
+                <img src="./assets/img/img-logo/ZingMP3logo.png" alt="" class="menu__logo-img">
+            </div>
+            <ul class="menu__list">
+                <li class="menu__item active">
+                    <a href="#" class="menu__item-link">
+                        <i class="menu__icon ti-user"></i>
+                        <span class="menu__item-name">Cá Nhân</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item-link">
+                        <i class="menu__icon ti-dribbble"></i>
+                        <span class="menu__item-name">Khám Phá</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item-link">
+                        <i class="menu__icon ti-image"></i>
+                        <span class="menu__item-name">#zingchart</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item-link">
+                        <i class="menu__icon ti-headphone-alt"></i>
+                        <span class="menu__item-name">Radio</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item-link">
+                        <i class="menu__icon ti-bookmark-alt"></i>
+                        <span class="menu__item-name">Theo dõi</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu__overflow">
+                <ul class="menu__list-2">
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-music-alt"></i>
+                            <span class="menu__item-2-name">Nhạc mới</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-layout-grid2"></i>
+                            <span class="menu__item-2-name">Thể loại</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-bar-chart"></i>
+                            <span class="menu__item-2-name">Top 100</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-layout-list-large-image"></i>
+                            <span class="menu__item-2-name">MV</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="menu__update-vip">
+                    <span class="menu__update-content">Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                    <button class="btn yellow btn__update-vip">NÂNG CẤP VIP</button>
+                </div>
+
+                <ul class="menu__library">
+                    <div class="menu__library-edit">
+                        <span>THƯ VIỆN</span>
+                        <i class="ti-pencil"></i>
+                    </div>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-music"></i>
+                            <span class="menu__library-name">Bài hát</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-layout-menu-v"></i>
+                            <span class="menu__library-name">Playlist</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-layout-list-thumb"></i>
+                            <span class="menu__library-name">Album</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-upload"></i>
+                            <span class="menu__library-name">Nhạc tải lên</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">
+                            <i class="menu__icon ti-alarm-clock"></i>
+                            <span class="menu__library-name">Gần đây</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__footer">
+                    <i class="menu__footer-icon ti-plus"></i>
+                    <span class="menu__footer-create">Tạo playlist mới</span>
+            </div>
+            <div class="menu__footer menu__footer-tablet">
+                    <i class="menu__footer-icon ti-angle-left"></i>
+            </div>
+        </div>
+
+        <div class="menu menu__tablet c-0">
+            <div class="menu__logo">
+                <img src="./assets/img/img-logo/zingmp3logo-tablet.png" alt="" class="menu__logo-img">
+            </div>
+            <ul class="menu__list">
+                <li class="menu__item active">
+                        <i class="menu__icon ti-user"></i> 
+                </li>
+                <li class="menu__item">
+                        <i class="menu__icon ti-dribbble"></i>
+                </li>
+                <li class="menu__item">
+                        <i class="menu__icon ti-image"></i>
+                </li>
+                <li class="menu__item">    
+                        <i class="menu__icon ti-headphone-alt"></i>
+                </li>
+                <li class="menu__item">
+                        <i class="menu__icon ti-bookmark-alt"></i>
+                </li>
+            </ul>
+
+            <div class="menu__overflow">
+                <ul class="menu__list-2">
+                    <li class="menu__item">
+                            <i class="menu__icon ti-music-alt"></i>
+                    </li>
+                    <li class="menu__item">                     
+                            <i class="menu__icon ti-layout-grid2"></i>
+                    </li>
+                    <li class="menu__item">                 
+                            <i class="menu__icon ti-bar-chart"></i>
+                    </li>
+                    <li class="menu__item">   
+                            <i class="menu__icon ti-layout-list-large-image"></i>
+                    </li>
+                </ul>
+
+                <ul class="menu__library">
+                    <li class="menu__item">
+                            <i class="menu__icon ti-music"></i>
+                    </li>
+                    <li class="menu__item">
+                            <i class="menu__icon ti-layout-menu-v"></i>
+                    </li>
+                    <li class="menu__item">
+                            <i class="menu__icon ti-layout-list-thumb"></i>
+                    </li>
+                    <li class="menu__item">
+                            <i class="menu__icon ti-upload"></i>
+                    </li>
+                    <li class="menu__item">
+                            <i class="menu__icon ti-alarm-clock"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__footer">
+                    <i class="menu__footer-icon ti-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container__header">
+                <div class="menu__mobile m-0 l-0">
+                    <i class="ti-menu"></i>
+                </div>
+                <div class="container__header-search">
+
+                    <i class="ti-search container__header-search-icon"></i>
+                    <input type="text" class="container__header-search-info" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                    <div class="container__header-history-search">
+                        <span class="container__header-history-search-offer">Đề xuất cho bạn</span>
+                        <ul class="container__header-history-search-offer-list">
+                            <div>
+                                <i class="ti-search"></i>
+                                <li class="container__header-history-search-offer-item">La Lisa</li>
+                            </div>
+                            <div>
+                                <i class="ti-search"></i>
+                                <li class="container__header-history-search-offer-item">Rose</li>
+                            </div>
+                            <div>
+                                <i class="ti-search"></i>
+                                <li class="container__header-history-search-offer-item">Jennie</li>
+                            </div>
+                            <div>
+                                <i class="ti-search"></i>
+                                <li class="container__header-history-search-offer-item">Jisoo</li>
+                            </div>
+                            <div>
+                                <i class="ti-search"></i>
+                                <li class="container__header-history-search-offer-item">IU</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container__header-list">
+                    <div class="container__header-list-upload">
+                        <i class="ti-upload"></i>
+                    </div>
+                    <div class="container__header-list-setting ">
+                        <i class="ti-settings"></i>
+                    </div>
+                    <span class="header__setting-list">
+                        <ul class="header__setting-list-1">
+                            <li class="header__setting-item-1">
+                                <i class="ti-face-sad header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Danh sách chặn</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-face-smile header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Chất lượng nhạc</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-layout-accordion-separated header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Giao diện</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-credit-card header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Mua code VIP</span>
+                            </li>
+                        </ul>
+                        <ul class="header__setting-list-2">
+                            <li class="header__setting-item-1">
+                                <i class="ti-info-alt header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Giới thiệu</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-new-window header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Góp ý</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-tablet header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Liên Hệ</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-agenda header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Quảng cáo</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-book header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Thỏa thuận sử dụng</span>
+                            </li>
+                            <li class="header__setting-item-1">
+                                <i class="ti-alert header__setting-item-icon"></i>
+                                <span class="header__setting-item-letter">Chính sách bảo mật</span>
+                            </li>
+                        </ul>
+                    </span>
+
+                    <div class="container__header-list-ava">
+                        <img src="./assets/img/img-ava/ava.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container__info">
+                <div class="container__info-btn">
+                    <button class="btn btn-update-vip">
+                            NÂNG CẤP VIP
+                    </button>
+
+                    <button class="btn btn-input-vip">
+                        NHẬP CODE VIP
+                    </button>
+
+                    <button class="btn btn-more">
+                        <i class="ti-more-alt"></i>
+                    </button>
+                </div>
+
+                <div class="container__info-personal">
+                    <img class="info-personal-ava" src="./assets/img/img-ava/ava.jpg" alt="">
+                    <span class="info-personal-name">Phan Quang Quý</span>
+                </div>
+
+                <div class="container__nav-content">
+                    <ul class="container__info-menu">
+                        <li class="container__info-menu-btn btn-active btn-1">TỔNG QUAN</li>
+                        <li class="container__info-menu-btn btn-2">BÀI HÁT</li>
+                        <li class="container__info-menu-btn btn-3">PLAYLIST</li>
+                        <li class="container__info-menu-btn btn-4">PODCAST</li>
+                        <li class="container__info-menu-btn-more">
+                            <i class="ti-more-alt"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container__song">
+                <div class="container__song-title">
+                    <div class="container__song-title-left">
+                        Bài Hát
+                    </div>
+                    <div class="container__song-title-right">
+                        <div class="title-right-all">
+                            <span>TẤT CẢ</span>
+                            <i class="ti-angle-right"></i>
+                        </div>
+                        <div class="title-right-update btn">
+                            <i class="ti-upload"></i>
+                            <span>TẢI LÊN</span>
+                        </div>
+                        <div class="title-right-play-all btn">
+                            <i class="ti-control-play"></i>
+                            <span>PHÁT TẤT CẢ</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row container__playlist active ">
+                <div class="col l-3 m-0 c-0 container__slide">
+                    <div class="container__slide-show">
+                        <div class="container__slide-item">
+                            <div style="background: url('./assets/img/img-music/song1.PNG') no-repeat center center / cover" class="container__slide-img first"></div>
+                            <div style="background: url('./assets/img/img-music/song2.PNG') no-repeat center center / cover" class="container__slide-img second"></div>
+                            <div style="background: url('./assets/img/img-music/song3.PNG') no-repeat center center / cover" class="container__slide-img third"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-9 m-12 c-12 container__playlist-song">
+                    <ul class="container__playlist-song-list">
+                        
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="container__playlist ">
+                <div class=" row container__playlist-title">
+                    <span class="col c-5 container__playlist-title-1">BÀI HÁT</span>
+                    <span class="col c-4 container__playlist-title-2">ALBUM</span>
+                    <span class="col c-3 container__playlist-title-3">THỜI GIAN</span>
+                </div>
+                <ul class="container__playlist-song-list container__playlist-song-list-2">
+                </ul>
+            </div>
+
+            <div class="container__title-playlist no-hide">
+                <span>Playlist</span>
+            </div>
+
+            <div class="row container__playlist container__playlist-3 no-hide">
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist-item-create">
+                        <i class="ti-plus container__playlist-icon-plus"></i>
+                        <span class="container__playlist-item-create-word">Tạp playlist mới</span>
+                    </div>
+                </div>
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist--item-img">
+                        <img src="./assets/img/img-music/song9.PNG" alt="" class="container__playlist-img">
+                        <div class="container__playlist-icon"> 
+                            <i class="ti-close container__playlist-icon-close"></i>
+                            <i class="ti-control-play container__playlist-icon-play"></i>
+                            <i class="ti-more-alt container__playlist-icon-more"></i>
+                        </div>
+                    </div>
+                    <div class="container__playlist-info">
+                        <span class="container__playlist-info-name">Lee Ji-eun</span>
+                        <span class="container__playlist-info-singer">IU</span>
+                    </div>
+                </div>
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist--item-img">
+                        <img src="./assets/img/img-music/song2.PNG" alt="" class="container__playlist-img">
+                        <div class="container__playlist-icon"> 
+                            <i class="ti-close container__playlist-icon-close"></i>
+                            <i class="ti-control-play container__playlist-icon-play"></i>
+                            <i class="ti-more-alt container__playlist-icon-more"></i>
+                        </div>
+                    </div>
+                    <div class="container__playlist-info">
+                        <span class="container__playlist-info-name">Lee Ji-eun</span>
+                        <span class="container__playlist-info-singer">IU</span>
+                    </div>
+                </div>
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist--item-img">
+                        <img src="./assets/img/img-music/song5.PNG" alt="" class="container__playlist-img">
+                        <div class="container__playlist-icon"> 
+                            <i class="ti-close container__playlist-icon-close"></i>
+                            <i class="ti-control-play container__playlist-icon-play"></i>
+                            <i class="ti-more-alt container__playlist-icon-more"></i>
+                        </div>
+                    </div>
+                    <div class="container__playlist-info">
+                        <span class="container__playlist-info-name">Lee Ji-eun</span>
+                        <span class="container__playlist-info-singer">IU</span>
+                    </div>
+                </div>
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist--item-img">
+                        <img src="./assets/img/img-music/song7.PNG" alt="" class="container__playlist-img">
+                        <div class="container__playlist-icon"> 
+                            <i class="ti-close container__playlist-icon-close"></i>
+                            <i class="ti-control-play container__playlist-icon-play"></i>
+                            <i class="ti-more-alt container__playlist-icon-more"></i>
+                        </div>
+                    </div>
+                    <div class="container__playlist-info">
+                        <span class="container__playlist-info-name">Lee Ji-eun</span>
+                        <span class="container__playlist-info-singer">IU</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__title-podcast no-hide">
+                <span>Podcast</span>
+            </div>
+
+            <div class="container__playlist container__playlist-4 no-hide">
+                <div class="col l-2-4 c-6 m-3 container__playlist-item">
+                    <div class="container__playlist--item-img">
+                        <img src="./assets/img/img-music/song6.PNG" alt="" class="container__playlist-img">
+                    </div>
+                    <div class="container__playlist-info">
+                        <span class="container__playlist-info-name">Lee Ji-eun</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters footer">
+            <div class="col c-3 m-4 footer__music-playing">
+                <div class="music-playing-info">
+                    <div class="music-playing-info-img">
+                        <img src="./assets/img/img-music/song1.PNG" alt="">
+                    </div>
+                    <div class="music-playing-info-name">
+                       <p class="info-name">Em Nỡ Sang Đò</p>
+                       <p class="info-singer">Lee Ken</p>
+                    </div>
+                </div>
+                <div class="music-playing-btn">
+                    <i class="music-playing-btn-heart active ti-heart"></i>
+                    <i class="music-playing-btn-more ti-more-alt"></i>
+                </div>
+            </div>
+
+            <div class="col c-6 m-4  footer__music-handle">
+                <div class="music-handle-btn">
+                    <div>
+                        <i class="ti-control-shuffle music-handle-btn--random"></i>
+                    </div>
+                    <div>
+                        <i class="ti-control-skip-backward music-handle-btn--prev"></i>
+                    </div>
+                    <div class="music-handle-btn--play-pause">
+                        <i class="ti-control-play music-handle-btn--play"></i>
+                        <i class="ti-control-pause music-handle-btn--pause"></i>
+                    </div>
+                    <div>
+                        <i class="ti-control-skip-forward music-handle-btn--next"></i>
+                    </div>
+                    <div>
+                        <i class="ti-loop music-handle-btn--loop"></i>
+                    </div>
+                </div>
+                <div class="music-handle-audio">
+                    <span class="tracktime">00:00</span>
+                    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <div class="progress__track song-track">
+                        <div class="progress__track-update">
+                        </div>
+                    </div>
+                    <audio src="" id="audio"></audio>
+                    <span class="durationtime">00:00</span>
+                </div>
+            </div>
+
+            <div class="col c-3 m-4 footer__music-handle-2">
+                <div class="footer__music-handle-2-micro">
+                    <i class="ti-microphone"></i>
+                </div>
+                <div class="footer__music-handle-2-display">
+                    <i class="ti-layout-media-center-alt"></i>
+                </div>
+                <div class="footer__music-handle-2-volume">
+                    <i class="ti-volume volume-active active"></i>
+                    <i class="ti-na volume-mute no-active"></i>
+                </div>
+                <input id="progress__volume" class="progress__volume" type="range" value="100" step="1" min="0" max="100">
+                <div class="menu__right-more active">
+                    <i class="ti-list-ol"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu__right">
+            <div class="menu__right-btn-top">
+                <div class="menu__right-btn-item left">
+                    <span class="menu__right-btn-item-list active">Nghe gần đây</span>
+                    <span class="menu__right-btn-item-list">Danh sách phát</span>
+                </div>
+                <div class="menu__right-btn-item">
+                    <i class="ti-alarm-clock"></i>
+                </div>
+                <div class="menu__right-btn-item">
+                    <i class="ti-more-alt"></i>
+                </div>
+            </div>
+            <ul class="menu__right-list-songs">
+                <li class="menu__right-list-song">
+                    <div class="menu__right-list-song-item">
+                        <div class="menu__right-list-song-item-img">
+                            <img src="./assets/img/img-music/song9.PNG" alt="">
+                        </div>
+                        <div class="menu__right-list-song-item-info">
+                            <p class="menu__right-list-song-item-name">How you like that</p>
+                            <p class="menu__right-list-song-item-singer">Black Pink</p>
+                        </div>
+                    </div>
+                    <div class="menu__right-list-song-icon">
+                        <i class="music-playing-btn-heart active ti-heart"></i>
+                        <i class="music-playing-btn-more ti-more-alt"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
