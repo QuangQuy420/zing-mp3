@@ -39,62 +39,62 @@ const app = {
         { 
             name: 'How Can I Love The Heartbreak, You’re The One I Love',
             singer: 'AKMU',
-            path: '/assets/music/song1.mp3',
-            image: '/assets/img/img-music/song1.PNG'
+            path: './assets/music/song1.mp3',
+            image: './assets/img/img-music/song1.PNG'
         },
         { 
             name: 'If There Was Practice In Love',
             singer: 'Lim Jae Hyun',
-            path: '/assets/music/song2.mp3',
-            image: '/assets/img/img-music/song2.PNG'
+            path: './assets/music/song2.mp3',
+            image: './assets/img/img-music/song2.PNG'
         },
         { 
             name: 'Drunk On Love',
             singer: 'Jang Hye Jin, Yoon Min Soo',
-            path: '/assets/music/song3.mp3',
-            image: '/assets/img/img-music/song3.PNG'
+            path: './assets/music/song3.mp3',
+            image: './assets/img/img-music/song3.PNG'
         },
         { 
             name: 'Your Regards',
             singer: 'Song Haye',
-            path: '/assets/music/song4.mp3',
-            image: '/assets/img/img-music/song4.PNG'
+            path: './assets/music/song4.mp3',
+            image: './assets/img/img-music/song4.PNG'
         },
         { 
             name: 'Falling Leaves Are Beautiful',
             singer: 'Heize',
-            path: '/assets/music/song5.mp3',
-            image: '/assets/img/img-music/song5.PNG'
+            path: './assets/music/song5.mp3',
+            image: './assets/img/img-music/song5.PNG'
         },
         { 
             name: 'To You My Light',
             singer: 'Maktub, Lee Raon',
-            path: '/assets/music/song6.mp3',
-            image: '/assets/img/img-music/song6.PNG'
+            path: './assets/music/song6.mp3',
+            image: './assets/img/img-music/song6.PNG'
         },
         { 
             name: 'Fame',
             singer: 'MC Mong, Ga In, Chancellor',
-            path: '/assets/music/song7.mp3',
-            image: '/assets/img/img-music/song7.PNG'
+            path: './assets/music/song7.mp3',
+            image: './assets/img/img-music/song7.PNG'
         },
         { 
             name: 'So Long',
             singer: 'Paul Kim',
-            path: '/assets/music/song8.mp3',
-            image: '/assets/img/img-music/song8.PNG'
+            path: './assets/music/song8.mp3',
+            image: './assets/img/img-music/song8.PNG'
         },
         { 
             name: 'Love Poem',
             singer: 'IU',
-            path: '/assets/music/song9.mp3',
-            image: '/assets/img/img-music/song9.PNG'
+            path: './assets/music/song9.mp3',
+            image: './assets/img/img-music/song9.PNG'
         },
         { 
             name: 'Chanel',
             singer: 'MC Mong, Park Bom',
-            path: '/assets/music/song10.mp3',
-            image: '/assets/img/img-music/song10.PNG'
+            path: './assets/music/song10.mp3',
+            image: './assets/img/img-music/song10.PNG'
         }
     ],
 
